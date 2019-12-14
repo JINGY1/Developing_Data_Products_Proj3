@@ -1,6 +1,6 @@
 # Developing_Data_Products_Proj3
 
-In thisproject, a Shiny application will be created and deploy it on Rstudio's servers. Then, use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
+In this project, a Shiny application will be created and deploy it on Rstudio's servers. Then, use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
 
 ## Shiny Application
 
