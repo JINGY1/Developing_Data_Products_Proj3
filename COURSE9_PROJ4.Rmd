@@ -1,0 +1,56 @@
+---
+title: "Developing Data Products"
+subtitle: "Week 4 Assignment"
+author: "JingYi"
+date: "12/8/2019"
+output: ioslides_presentation
+---
+
+<style type="text/css">
+
+body, td {
+   font-size: 14px;
+}
+code.r{
+  font-size: 12px;
+}
+pre {
+  font-size: 12px
+}
+</style>
+
+## Introduction
+
+This project part of the Course Project for the Coursera Developing Data Products course. The objective of this project is to create a Shiny application and deploy it on Rstudio's servers. 
+
+The app develop for the first part of the project is available at:
+
+https://jingy1.shinyapps.io/COURSE9_PROJ3/
+
+The source code for ui.R and server.R is available at:
+
+https://github.com/JINGY1/Developing_Data_Products_Proj3
+
+
+## Data
+
+Datasets **nottem** is used to predict average monthly temperature at Nottingham. *nottem* is a time series object containing average air temperatures at Nottingham Castle in degrees Fahrenheit for 20 years.
+
+
+## Data
+
+```{r data, echo=TRUE, message=FALSE}
+options(width = 80)
+summary(nottem)
+str(nottem)
+head(nottem, 20)
+```
+
+
+## Analysis
+In this project, we are going to use the 20 years data to predict next 10 years air temperature.
+```{r plot, include=TRUE, out.width='80%', fig.align='center'}
+plot(nottem)
+```
+
+
